@@ -70,3 +70,18 @@ Una vez nos funciona y lo explotamos verificamos el acceso con whoami y comproba
 Flag03: qi0maab88jeaj46qoumi7maus
 
 Level04
+
+
+![image](https://github.com/user-attachments/assets/c6b11936-1c77-47d4-9736-46a567284574)
+
+
+![image](https://github.com/user-attachments/assets/5c781066-6184-4dae-a08c-dc4a6d64c639)
+
+
+![image](https://github.com/user-attachments/assets/15aa2bed-7926-4b98-9361-0aa5efc2e539)
+
+
+![image](https://github.com/user-attachments/assets/b3b276e1-9d2c-458d-bbf6-6e2688601e58)
+
+Flag04: ne2searoevaevoem4ov4ar8ap
+
