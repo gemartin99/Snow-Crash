@@ -51,3 +51,22 @@ FLAG02: kooda2puivaav1idi4f57q8iq
 
 Level03
 
+En la raiz del user vemos un programado llamado level03, si lo ejecutamos nos dice que lo explotemos. Pues para explotarlo necesitamos entender que hace para ello utilizaremos comandos como strings, ltrace o nm -u para obtener mas info sobre el programa
+
+![image](https://github.com/user-attachments/assets/954f272e-a1ec-45c4-9677-cad12ffb4946)
+
+
+![image](https://github.com/user-attachments/assets/e0e16194-fc99-4a37-982c-56197531038c)
+
+
+![image](https://github.com/user-attachments/assets/a9c8f6d1-8637-48a7-867f-a59c25f27b82)
+
+Bueno, una vez analizado el programa vemos que utiliza la funcion system y que ejecuta echo a traves del comando env. Pues yo aqui veo una vulneralidad muy potente. Lo que haremos sera sustituir el comando echo por una shell /bin/sh y cambiar la variable de env $PATH para que el nuevo echo aparezca ahi. 
+
+Una vez nos funciona y lo explotamos verificamos el acceso con whoami y comprobamos que hemos escalado privilegios
+
+![image](https://github.com/user-attachments/assets/4f3df830-5bca-45f3-af48-4d4b5ea8abde)
+
+Flag03: qi0maab88jeaj46qoumi7maus
+
+Level04
