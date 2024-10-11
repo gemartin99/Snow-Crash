@@ -77,6 +77,8 @@ Level04
 
 ![image](https://github.com/user-attachments/assets/5c781066-6184-4dae-a08c-dc4a6d64c639)
 
+obtiene el valor del parametro x de la solicitud HTTP (por ejemplo ?x=<valor>) y lo pasa a la funcion x, que ejecuta el comando echo con ese valor.
+
 
 ![image](https://github.com/user-attachments/assets/15aa2bed-7926-4b98-9361-0aa5efc2e539)
 
@@ -133,7 +135,9 @@ Otro lvl facilito. Aparece de nuevo un programa y un fichero llamado token que n
 
 ![image](https://github.com/user-attachments/assets/e21fbef0-4692-4615-b4a0-a5973e03332a)
 
-Flag08: quif5eloekouj29ke0vouxean
+Pass user flag08: quif5eloekouj29ke0vouxean
+
+Flag08: 25749xKZ8L7DkSCwJkT9dyv6f
 
 Level09
 
