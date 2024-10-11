@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/37cbe494-9292-4e7b-92f4-c3717871228d)# Snow-Crash
+# Snow-Crash
 Snow-Crash is a Capture the Flag project at 42 school. The goal is to develop practical skills in information security and logical thinking.
 
 Level00
@@ -84,4 +84,22 @@ Level04
 ![image](https://github.com/user-attachments/assets/b3b276e1-9d2c-458d-bbf6-6e2688601e58)
 
 Flag04: ne2searoevaevoem4ov4ar8ap
+
+Level05
+
+Como en el level00, entramos en el user y en la raiz no hay nada, pues vamos a buscar. Si buscamos los archivos creados por flag05 encontramos algo. 
+
+![image](https://github.com/user-attachments/assets/86c1baa0-6689-4f9d-a222-87fcd0a28e77)
+
+Lo que vemos es que hay un script que lo que hace es ejecutar todo lo que hay en la ruta /opt/openarenaserver/ y luego lo borra. Pues muy sencillo, crearemos un script que contenga el getflag en esa ruta para que lo ejecute y que nos almacene la flag en un fichero que este en otra ruta.
+
+![image](https://github.com/user-attachments/assets/e940b193-c8e2-4690-851e-583e2ae18b5f)
+
+Una vez se haya borrado el fichero y no lo encontremos en la ruta /opt/openarenaserver/ ya se habra ejecutado el script
+
+![image](https://github.com/user-attachments/assets/f4afe45b-fc60-4066-9dd3-e6967a77a5ec)
+
+Flag05: viuaaale9huek52boumoomioc
+
+Level06
 
