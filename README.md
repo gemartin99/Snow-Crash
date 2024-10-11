@@ -103,3 +103,23 @@ Flag05: viuaaale9huek52boumoomioc
 
 Level06
 
+Entramos en el user y en la raiz vemos un programa y un fichero.php
+
+![image](https://github.com/user-attachments/assets/72ba0388-bc2e-47ca-ac5a-77efe918864e)
+
+Vamos a analizar detenidamente que hace el fichero .php ya que presenta vulnerabilidades
+
+![image](https://github.com/user-attachments/assets/5e6e10f8-fbc5-4c99-b7b1-208713d04414)
+
+Bueno viendo esto lo que entendemos es que la funcion x recibe 2 argumentos. Y el argv[1] (que sera lo que nosotros queramos) le hara una serie de remplazos y lo ejecutara. Es importante que entendamos que remplazos hara para que se ejecute lo que nosotros queramos. da palo explicarlo todo pero bueno que si hay algo entre [x ...] remplazara el contenido de dentro si hay un . por una x y un @ por y. Tambien remplazara los [ por ( y ] por ).
+
+Sabiendo esto pues vamos a explotar el fallo.
+
+![image](https://github.com/user-attachments/assets/df8a4fa2-6f39-4bf0-bdea-3a3abe785fdb)
+
+flag06: wiok45aaoguiboiki2tuin6ub
+
+Level07
+
+
+
