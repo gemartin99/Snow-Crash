@@ -121,5 +121,11 @@ flag06: wiok45aaoguiboiki2tuin6ub
 
 Level07
 
+Mas de lo mismo, muy parecido a un nivel anterior. Nos aparece un programa en la raiz del user, si lo ejecutamos se printa nuestros nombre de usuario. Vemos las strings legibles del programa con el comando strings y tambien nm -u para ver funciones que utiliza. Una vez analizado esto vemos que hay dos lineas , una que aparece LOGNAME y otra un echo sobre esa variable de entorno. Bueno sabiendo esto lo que haremos sera sustituir el valor de $LOGNAME para que el programa ejecute getflag.
 
+![image](https://github.com/user-attachments/assets/7503f905-f43f-473a-909f-c113d33d53b1)
+
+Flag07: fiumuikeil55xe9cu4dood66h
+
+Level08
 
