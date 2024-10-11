@@ -129,3 +129,11 @@ Flag07: fiumuikeil55xe9cu4dood66h
 
 Level08
 
+Otro lvl facilito. Aparece de nuevo un programa y un fichero llamado token que no tenemos permis para verlo ni nada. Hacemos strings sobre el programa para intentar analizarlo etc, este programa recibe un argumento y lo va a intentar leer y nos devuelve el contenido del fichero que le pasamos por argumento. Cada vez que le pasamos token nos dice que no tiene acceso, tanto si le pasamos el fichero token o cualquier string que contenga la palabra token. Por lo tanto, intuimos que la flag esta dentro de este fichero pero no lo podemos abrir ni hacer nada sobre él porque no tenemos permis y por otro lado sabemos que nuestro programa nos printa el contenido de un fichero pero siempre y cuando no sea o contenga la palabra "token", como tampoco podemos cambiar el nombre del file ni copiar y pegar su contenido lo que podemos hacer es un enlace simbolico para acceder al contenido de token sin ser el fichero token como tal. 
+
+![image](https://github.com/user-attachments/assets/e21fbef0-4692-4615-b4a0-a5973e03332a)
+
+Flag08: quif5eloekouj29ke0vouxean
+
+Level09
+
