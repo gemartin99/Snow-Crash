@@ -119,6 +119,8 @@ Sabiendo esto pues vamos a explotar el fallo.
 
 ![image](https://github.com/user-attachments/assets/df8a4fa2-6f39-4bf0-bdea-3a3abe785fdb)
 
+IMPORTANTE QUE NO SE COMO SE PONEN LOS CARACTERES ESTO: echo '[x ${`getflag`} ]' > /tmp/test
+
 flag06: wiok45aaoguiboiki2tuin6ub
 
 Level07
