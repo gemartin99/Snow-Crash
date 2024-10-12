@@ -141,3 +141,33 @@ Flag08: 25749xKZ8L7DkSCwJkT9dyv6f
 
 Level09
 
+![image](https://github.com/user-attachments/assets/2d1cff9f-c0c1-4b93-ba29-9dd79f665b8e)
+
+![image](https://github.com/user-attachments/assets/5c000b3b-b483-412f-9d33-3c8533725fc8)
+
+```
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{
+    int i = 0;
+    char arg;
+
+    while (argv[1][i])
+    {
+        arg = argv[1][i];
+        printf("%c", arg - i);
+        i++;
+    }
+    printf("\n");
+
+    return 0;
+}
+```
+
+![image](https://github.com/user-attachments/assets/d7fedc1d-245e-4335-933a-75f56df9f47d)
+
+Pass user flag09: f3iji1ju5yuevaus41q1afiuq
+
+Flag09: s5cAJpM8ev6XHw998pRWG728z
+
