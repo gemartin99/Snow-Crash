@@ -1,0 +1,21 @@
+en la raiz del user vemos que solo hay un fichero .pcap 
+
+![image](https://github.com/user-attachments/assets/82a6d9c7-bd3a-4c9c-bc3c-8b2a8d6a2921)
+
+este fichero almacena datos capturados de una red. Este fichero suele ser generado por herramientas como WireShark, tcpdump etc. Yo utilizare wireshark para analizar el fichero. Para ello utilizare mi VM Kali linux. Entonces utilizaremos SCP para copiar el fichero de la maquina snowcrash a mi otra maquina virtual Kali Linux.
+
+![image](https://github.com/user-attachments/assets/cff43b68-c9ac-44e3-b0e8-8a8448bc5f61)
+
+Una vez tenemos el archivo en Kali pues abriremos Wireshark y analizamos el fichero, si nos fijamos en el paquete 43 aparece password. Lo que haremos sera darle click derecho en este paquete y le daremos a follow TCP stream para ver la secuencia entera
+
+![image](https://github.com/user-attachments/assets/9049c234-6c9f-47dc-89d6-4ff7a5fbdb65)
+
+Pues ya tendriamos la flag 
+
+![image](https://github.com/user-attachments/assets/ccb105c7-8c58-4f2e-8ee6-f5c8395c4c26)
+
+Peroooooo aqui hay que comentar algo , la contraseña no es con los . , eso son caracteres no printables que se ve asi por ser ASCII, si cambiamos los datos a C Arrays por ejemplo podemos ver exactamente los caracteres pero bueno que basicamente es la misma pass quitando los . 
+
+![image](https://github.com/user-attachments/assets/f3c68cce-afeb-4837-8798-14481d42e75d)
+
+La pass esta en Hexadecimal, si la analizamos vemos que los . eran caracteres eliminados, por lo que al escribir la pass se equivocaron y borraron algunos chars y eso nos despistaria. Bueno una vez tenemos la pass que es: ```ft_waNDReL0L``` entramos al user flag y hacemos el getflag.

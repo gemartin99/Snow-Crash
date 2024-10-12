@@ -1,0 +1,12 @@
+![image](https://github.com/user-attachments/assets/c6b11936-1c77-47d4-9736-46a567284574)
+
+
+![image](https://github.com/user-attachments/assets/5c781066-6184-4dae-a08c-dc4a6d64c639)
+
+obtiene el valor del parametro x de la solicitud HTTP (por ejemplo ?x=<valor>) y lo pasa a la funcion x, que ejecuta el comando echo con ese valor.
+
+
+![image](https://github.com/user-attachments/assets/15aa2bed-7926-4b98-9361-0aa5efc2e539)
+
+
+![image](https://github.com/user-attachments/assets/b3b276e1-9d2c-458d-bbf6-6e2688601e58)

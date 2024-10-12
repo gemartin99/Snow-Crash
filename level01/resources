@@ -1,0 +1,11 @@
+cat /etc/passwd
+
+aparece otra pass encriptada al lado del user flag01
+
+![image](https://github.com/user-attachments/assets/54a0b7c0-677c-4a1e-92f2-d237be164388)
+
+desencriptamos con johntheripper 
+
+![image](https://github.com/user-attachments/assets/c63cc49d-f1ce-4a23-83e3-377c1f83e4ae)
+
+la pass es: abcdefg

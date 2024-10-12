@@ -1,0 +1,11 @@
+Como en el level00, entramos en el user y en la raiz no hay nada, pues vamos a buscar. Si buscamos los archivos creados por flag05 encontramos algo. 
+
+![image](https://github.com/user-attachments/assets/86c1baa0-6689-4f9d-a222-87fcd0a28e77)
+
+Lo que vemos es que hay un script que lo que hace es ejecutar todo lo que hay en la ruta /opt/openarenaserver/ y luego lo borra. Pues muy sencillo, crearemos un script que contenga el getflag en esa ruta para que lo ejecute y que nos almacene la flag en un fichero que este en otra ruta.
+
+![image](https://github.com/user-attachments/assets/e940b193-c8e2-4690-851e-583e2ae18b5f)
+
+Una vez se haya borrado el fichero y no lo encontremos en la ruta /opt/openarenaserver/ ya se habra ejecutado el script
+
+![image](https://github.com/user-attachments/assets/f4afe45b-fc60-4066-9dd3-e6967a77a5ec)
